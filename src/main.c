@@ -5,14 +5,9 @@
 #include <time.h> 
 #include "function.h"
 
-void main()
+int main()
 {
-    int a, b, c, d;
-    
-    bcrandom(&a, &b, &c, &d);
-    
-    bulls_cows(&a, &b, &c, &d);
+menu();
 
-    //_getch();
+return 0;   
 }
-
